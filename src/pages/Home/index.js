@@ -1,9 +1,9 @@
-function Search() {
+function Home() {
     return (
         <div>
-            <h1>Search</h1>
+            <h2>Home</h2>
         </div>
     );
 }
 
-export default Search;
+export default Home;
