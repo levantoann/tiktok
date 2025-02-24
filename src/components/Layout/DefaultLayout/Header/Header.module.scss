@@ -19,9 +19,21 @@
 }
 .logo {
 }
+
+.search-title {
+    padding: 5px 12px;
+    color: rgba(22, 24, 35, 0.5);
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.search,
+.search-result {
+    width: 361px;
+}
+
 .search {
     background-color: rgba(22, 24, 35, 0.06);
-    width: 361px;
     height: var(--search-height);
     border-radius: var(--search-border-radius);
     padding-left: 16px;
@@ -83,4 +95,7 @@
 }
 
 .actions {
+}
+.custom-login {
+    color: red;
 }
