@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'; // Use BrowserR
 import './App.css';
 import Home from '~/pages/Home';
 import Following from '~/pages/Following';
-import { publicRoutes } from '~/routes';
+import { publicRoutes } from '~/routes/routes';
 import { DefaultLayout } from '~/components/Layout';
 import { Fragment } from 'react';
 
